@@ -1,0 +1,32 @@
+{% extends "template.html" %}
+
+<title>Contato</title>
+
+{% block contents %}
+
+    <body>
+        <div class="logo">
+            <img src="static\img\logo.png">
+        </div>
+        <div class="conteudo">
+            <h2> Entre em Contato </h2>
+            <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+        <hr> 
+            <form>
+                <label> Seu e-mail: </label>
+                <br>
+                <input type="text" name="seu e-mail">
+                <br>
+                <label> Assunto: </label>
+                <br>
+                <input type="text" name="assunto">
+                <br>
+                <label> Descrição: </label>
+                <br>
+                <input typename="descrição" style="height:100px"><br>
+                <button type="submit"> Enviar </button>
+            </form>
+        </div>
+        <footer> Todos os direitos reservados </footer>
+    </body>
+{% endblock %}
